@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-300;
+  }
+}
+
+@layer components {
+  .icon {
+  @apply mr-2 text-gray-600;
+  }
+  .text {
+    @apply text-gray-600;
+  }
+}
